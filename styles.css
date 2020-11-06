@@ -1,0 +1,58 @@
+.container {
+    height: 400px;
+    width : 500px;
+    background-color:teal;
+    border: solid 5px ;
+    border-radius: 20px ;
+    border: none;
+    position: absolute;
+    top: 25%;
+    right: 34%;
+    
+   
+   
+}
+#display {
+    width:100%;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: 'verdana';
+    color: black;
+    
+  
+}
+.buttons {
+    text-align: center;
+}
+#startStop,#reset{
+    background-color: lightgrey;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#colorScheme{
+    background-color: lightgrey;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: coral;
+    
+  
+}
+ #reset:hover{
+    background-color: gray;
+    
+}
+#startStop:hover{
+    background-color: gray;
+}
+#colorScheme:hover{
+    background-color: gray ;
+}
+
+
